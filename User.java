@@ -1,7 +1,7 @@
 
 public class User { 
-	String username; 
-	String password; 
+	static String username; 
+	static String password; 
 	
 	
 	public static boolean login(String usernameSet, String passwordSet ) {  
