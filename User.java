@@ -1,18 +1,20 @@
-
 public class User { 
-	static String username; 
-	static String password; 
+	private static String username; 
+	private static String password; 
 	
 	
-	public static boolean login(String usernameSet, String passwordSet ) {  
+	public String getUsername() {
 		
-		if (username == usernameSet && password == passwordSet) {
-			System.out.println("Acesso Concedido"); 
-			return true;
-		} else {
-			System.out.println("Acesso Negado"); 
-			return false; 
-		}
+		return this.username;
+	}  
+	public void setUsername(String newUsername) {
+		this.username = newUsername; 
+	}
+	
+	public String getPassword() {
+		
+		return this.password;
 	} 
-
-}
+	public void setPassword(String newPassword) {
+		this.password = newPassword; 
+	}
