@@ -6,13 +6,14 @@ public class UsersData {
 		anonimo.setUsername("a");
 		anonimo.setPassword("b"); 
 		 
-		User eu = new User();  
-		eu.setUsername("meu usuario");
-		eu.setPassword("minha senha"); 
+		User yo = new User();  
+		yo.setUsername("mi usuario");
+		yo.setPassword("mi contraseña"); 
 		
-		Login.login(anonimo, eu.getUsername(), anonimo.getPassword());
+		Login.login(anonimo, yo.getUsername(), anonimo.getPassword());
 		
 		
 	} 
 
 }
+
